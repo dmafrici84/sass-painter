@@ -1,0 +1,13 @@
+@mixin centratura {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@mixin ulNavFlex {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,123 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+
+  section#header-nav-top {
+
+    nav.centratura {
+      @include centratura;
+
+      div.header-nav-top-right{
+        width: 40%;
+
+        ul {
+          @include ulNavFlex;
+
+          li {
+            i {
+              font-size: 15px;
+              margin-right: 10px;
+              color: blue;
+            }
+            a {
+              font-size: 15px;
+              color: grey;
+            }
+            select {
+              width: 75px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  section#header-nav-bottom {
+    nav.centratura {
+      @include centratura;
+      display: flex;
+      justify-content: flex-start;
+
+      div.header-nav-bottom-left {
+        width: 8%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        a {
+
+          img {
+            width: 90px;
+          }
+        }
+      }
+      div.header-nav-bottom-right {
+        width: 82%;
+
+        & > ul {
+          @include ulNavFlex;
+
+          & > li {
+            @include ulNavFlex;
+
+            a {
+              padding-left: 22px;
+              padding-right: 22px;
+              font-size: 17px;
+              color: #fff;
+
+              i {
+                margin-left: 3px;
+                font-size: 10px;
+                color: grey;
+              }
+            }
+          }
+          li.parent-dropdown{
+            position: relative;
+
+            div.dropdown {
+              position: absolute;
+              top: 50px;
+              left: 0;
+              z-index: 79;
+              width: 230px;
+              background-color: #fff;
+              display: none;
+
+              ul {
+                width: 100%;
+                height: 150px;
+                padding: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                li {
+
+                  a {
+                    font-size: 17px;
+                    color: black;
+                    padding: 8px;
+                  }
+                }
+              }
+            }
+          }
+          li.parent-dropdown:hover {
+            background-color: #fff;
+            a {
+              color:black;
+            }
+            .dropdown {
+              display: block;
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+}

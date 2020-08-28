@@ -1,0 +1,26 @@
+
+@import "partials/_variables.scss";
+@import "partials/_common.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "partials/_header.scss";
+@import "partials/_content.scss";
+@import "partials/_footer.scss";
