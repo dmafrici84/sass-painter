@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+header section#header-nav-top nav.centratura {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header section#header-nav-top nav.centratura div.header-nav-top-right {
+  width: 40%;
+}
+
+header section#header-nav-top nav.centratura div.header-nav-top-right ul {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header section#header-nav-top nav.centratura div.header-nav-top-right ul li i {
+  font-size: 15px;
+  margin-right: 10px;
+  color: blue;
+}
+
+header section#header-nav-top nav.centratura div.header-nav-top-right ul li a {
+  font-size: 15px;
+  color: grey;
+}
+
+header section#header-nav-top nav.centratura div.header-nav-top-right ul li select {
+  width: 75px;
+}
+
+header section#header-nav-bottom nav.centratura {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-left {
+  width: 8%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-left a img {
+  width: 90px;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right {
+  width: 82%;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul > li {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul > li a {
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 17px;
+  color: #fff;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul > li a i {
+  margin-left: 3px;
+  font-size: 10px;
+  color: grey;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown {
+  position: relative;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  z-index: 79;
+  min-width: 180px;
+  background-color: #fff;
+  display: none;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul li {
+  line-height: 2;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul li a {
+  font-size: 17px;
+  color: black;
+  padding: 8px;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown:hover {
+  background-color: #fff;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown:hover a {
+  color: black;
+}
+
+header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown:hover .dropdown {
+  display: block;
+}
+
