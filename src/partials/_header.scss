@@ -1,12 +1,11 @@
 header {
   width: 100%;
   height: 100px;
-  background-color: black;
+  background-color: $bg_primary;
 
   section#header-nav-top {
 
     nav.centratura {
-      @include centratura;
 
       div.header-nav-top-right{
         width: 40%;
@@ -22,7 +21,7 @@ header {
             }
             a {
               font-size: 15px;
-              color: grey;
+              color: $cl_tertiary;
             }
             select {
               width: 75px;
@@ -36,8 +35,6 @@ header {
 
   section#header-nav-bottom {
     nav.centratura {
-      @include centratura;
-      display: flex;
       justify-content: flex-start;
 
       div.header-nav-bottom-left {
@@ -64,13 +61,13 @@ header {
             a {
               padding-left: 22px;
               padding-right: 22px;
-              font-size: 17px;
-              color: #fff;
+              font-size: 15px;
+              color: $cl_primary;
 
               i {
                 margin-left: 3px;
                 font-size: 10px;
-                color: grey;
+                color: $cl_tertiary;
               }
             }
           }
@@ -83,41 +80,52 @@ header {
               left: 0;
               z-index: 79;
               width: 230px;
-              background-color: #fff;
+              background-color: $bg_secondary;
               display: none;
 
               ul {
                 width: 100%;
-                height: 150px;
-                padding: 8px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
 
-                li {
+                li.dropdown-link {
+                  @include ulNavFlex;
+                  padding: 10px;
+                  cursor: pointer;
 
                   a {
-                    font-size: 17px;
-                    color: black;
+                    font-size: 15px;
+                    color: $cl_secondary;
                     padding: 8px;
+                  }
+
+                  i {
+                    font-size: 12px;
+                    color: $cl_tertiary;
+                  }
+                }
+
+                li.dropdown-link:hover {
+                  background-color: lightgrey;
+                  li.parent-dropdown {
+                    background-color: $bg_primary;
                   }
                 }
               }
             }
           }
           li.parent-dropdown:hover {
-            background-color: #fff;
+            background-color: $bg_secondary;
             a {
-              color:black;
+              color:$cl_secondary;
             }
             .dropdown {
               display: block;
             }
-
           }
         }
       }
     }
-
   }
 }

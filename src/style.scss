@@ -11,6 +11,7 @@
 body {
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
   background-size: cover;
+  font-family: Roboto,sans-serif;
 }
 
 ul {
@@ -21,6 +22,9 @@ a {
   text-decoration: none;
 }
 
+.centratura {
+  @include centratura;
+}
 @import "partials/_header.scss";
-@import "partials/_content.scss";
+@import "partials/_jumbotron.scss";
 @import "partials/_footer.scss";
