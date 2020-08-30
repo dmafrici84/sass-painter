@@ -7,6 +7,7 @@
 body {
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
   background-size: cover;
+  background-position: 0 150px;
   font-family: Roboto, sans-serif;
 }
 
@@ -23,6 +24,12 @@ a {
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+}
+
+.trasparente {
+  width: 100%;
+  height: 90vh;
+  background-color: transparent;
 }
 
 header {
@@ -46,7 +53,7 @@ header section#header-nav-top nav.centratura div.header-nav-top-right ul li i {
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul li a {
   font-size: 15px;
-  color: grey;
+  color: #555;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul li select {
   width: 75px;
@@ -87,7 +94,7 @@ header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul > li a i {
   margin-left: 3px;
   font-size: 10px;
-  color: grey;
+  color: #555;
 }
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown {
   position: relative;
@@ -122,7 +129,7 @@ header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul
 }
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul li.dropdown-link i {
   font-size: 12px;
-  color: grey;
+  color: #555;
 }
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul li.dropdown-link:hover {
   background-color: lightgrey;
@@ -140,71 +147,71 @@ header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul
   display: block;
 }
 
-main.content section#jumbotron {
+main section#jumbotron {
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -450px;
 }
-main.content section#jumbotron div.jumbotron-left {
+main section#jumbotron div.jumbotron-left {
   width: 45%;
   background-color: rgba(0, 0, 0, 0);
   padding: 40px 10px;
   color: #fff;
 }
-main.content section#jumbotron div.jumbotron-left h2 {
+main section#jumbotron div.jumbotron-left h2 {
   font-size: 29px;
   margin-bottom: 20px;
 }
-main.content section#jumbotron div.jumbotron-left h4 {
+main section#jumbotron div.jumbotron-left h4 {
   font-size: 22.5px;
   margin-bottom: 20px;
 }
-main.content section#jumbotron div.jumbotron-left ul {
+main section#jumbotron div.jumbotron-left ul {
   margin-bottom: 40px;
 }
-main.content section#jumbotron div.jumbotron-left li {
+main section#jumbotron div.jumbotron-left li {
   font-size: 17px;
   margin-bottom: 27px;
 }
-main.content section#jumbotron div.jumbotron-left li i {
+main section#jumbotron div.jumbotron-left li i {
   font-size: 12px;
-  color: grey;
+  color: #555;
   margin-right: 8px;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron {
   height: 55px;
   width: 215px;
   padding: 5px;
   border: 0;
-  background-color: grey;
+  background-color: #555;
   color: #fff;
   display: flex;
   cursor: pointer;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left {
   width: 80%;
   display: flex;
   border-right: solid 1px #fff;
   flex-direction: column;
   justify-content: space-between;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left span {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left span {
   font-size: 15px;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right {
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right i {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right i {
   font-size: 22px;
 }
-main.content section#jumbotron div.jumbotron-left button#btn-jumbotron:hover {
+main section#jumbotron div.jumbotron-left button#btn-jumbotron:hover {
   opacity: 0.8;
 }
-main.content section#jumbotron div.jumbotron-right {
+main section#jumbotron div.jumbotron-right {
   width: 33.5%;
   height: 500px;
   margin-top: 20px;
@@ -212,38 +219,38 @@ main.content section#jumbotron div.jumbotron-right {
   background-color: #000;
   color: #fff;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto {
+main section#jumbotron div.jumbotron-right div.sconto {
   display: flex;
   justify-content: space-between;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale {
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale {
   width: 85px;
   height: 33px;
   padding: 5px 10px 5px 10px;
   margin: 10px 0 15px;
   background-color: #CC397F;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale span {
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale span {
   font-size: 15px;
   color: #fff;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-1 span {
-  color: grey;
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 span {
+  color: #555;
   font-size: 16px;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-1 h4 {
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 h4 {
   font-size: 25px;
   margin-bottom: 15px;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-img {
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-img {
   display: flex;
   justify-content: flex-end;
   padding-top: 20px;
 }
-main.content section#jumbotron div.jumbotron-right div.sconto div.sconto-img img {
+main section#jumbotron div.jumbotron-right div.sconto div.sconto-img img {
   height: 90px;
 }
-main.content section#jumbotron div.jumbotron-right button#btn-buy {
+main section#jumbotron div.jumbotron-right button#btn-buy {
   width: 150px;
   height: 35px;
   color: #fff;
@@ -253,32 +260,157 @@ main.content section#jumbotron div.jumbotron-right button#btn-buy {
   border: 0;
   cursor: pointer;
 }
-main.content section#jumbotron div.jumbotron-right button#btn-buy:hover {
+main section#jumbotron div.jumbotron-right button#btn-buy:hover {
   background-color: #26abff;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta {
+main section#jumbotron div.jumbotron-right div.offerta {
   margin-top: 20px;
   padding: 10px 10px 10px 15px;
   background-color: rgba(255, 255, 255, 0.9);
   line-height: 130%;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta a {
+main section#jumbotron div.jumbotron-right div.offerta a {
   color: #000;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta a span {
+main section#jumbotron div.jumbotron-right div.offerta a span {
   font-size: 19px;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta a p {
+main section#jumbotron div.jumbotron-right div.offerta a p {
   font-size: 14.5px;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta a p span {
+main section#jumbotron div.jumbotron-right div.offerta a p span {
   font-size: 14px;
   color: #CC397F;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta a:last-child {
+main section#jumbotron div.jumbotron-right div.offerta a:last-child {
   font-size: 14px;
   color: #26abff;
 }
-main.content section#jumbotron div.jumbotron-right div.offerta:hover a:last-child {
+main section#jumbotron div.jumbotron-right div.offerta:hover a:last-child {
   text-decoration: underline;
+}
+
+main section#navbar-main {
+  background-color: #E6E6E6;
+}
+main section#navbar-main div.centratura {
+  justify-content: flex-start;
+}
+main section#navbar-main div.centratura nav {
+  width: 68%;
+}
+main section#navbar-main div.centratura nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+main section#navbar-main div.centratura nav ul li {
+  width: calc(100% / 6);
+  height: 64.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#navbar-main div.centratura nav ul li a {
+  font-size: 18px;
+  color: #555;
+}
+main section#navbar-main div.centratura nav ul li:first-child {
+  background-color: #fff;
+  border-bottom: solid 3.5px #000;
+}
+main section#navbar-main div.centratura nav ul li:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+main section#painting-software {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+  background-size: cover;
+}
+main section#painting-software div.centratura {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main section#painting-software div.centratura div.titolo {
+  width: 85%;
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+}
+main section#painting-software div.centratura div.titolo h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+main section#painting-software div.centratura div.titolo p {
+  font-size: 19px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+main section#painting-software div.centratura div.titolo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#painting-software div.centratura div.titolo a div.cerchio {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: solid 1px #555;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#painting-software div.centratura div.titolo a div.cerchio i {
+  font-size: 20px;
+  color: #555;
+}
+main section#painting-software div.centratura div.titolo a span {
+  font-size: 18px;
+  color: #fff;
+}
+main section#painting-software div.centratura div.video {
+  margin-top: 70px;
+  position: relative;
+  height: 559px;
+}
+main section#painting-software div.centratura div.video img {
+  height: 559px;
+}
+main section#painting-software div.centratura div.video img.img-cornice {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 569px;
+}
+main section#painting-software div.centratura div.video div.play-contenitore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 559px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#painting-software div.centratura div.video div.play-contenitore div.play {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+main section#painting-software div.centratura div.video div.play-contenitore div.play i {
+  font-size: 50px;
+  color: #fff;
+}
+main section#painting-software div.centratura div.video:hover div.play-contenitore div.play {
+  border-color: #555;
+}
+main section#painting-software div.centratura div.video:hover div.play-contenitore div.play i {
+  color: #555;
 }

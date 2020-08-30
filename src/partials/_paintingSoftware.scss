@@ -1,0 +1,98 @@
+main {
+  section#painting-software {
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-size: cover;
+    div.centratura{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      div.titolo {
+        width: 85%;
+        text-align: center;
+        padding-top: 70px;
+        color: $cl_primary;
+        h2 {
+          font-size: 36px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 19px;
+          padding: 5px;
+          margin-bottom: 30px;
+        }
+        a {
+          @include flexCenter;
+
+          div.cerchio {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: solid 1px $cl_tertiary;
+            margin-right: 30px;
+            @include flexCenter;
+
+            i {
+              font-size: 20px;
+              color: $cl_tertiary;
+            }
+          }
+          span {
+            font-size: 18px;
+            color: $cl_primary;
+          }
+        }
+      }
+      div.video {
+        margin-top: 70px;
+        position: relative;
+        height: 559px;
+
+        img {
+          height: 559px;
+        }
+
+        img.img-cornice {
+          position: absolute;
+          top: -10px;;
+          left: 0;
+          height: 569px;
+        }
+        div.play-contenitore {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 559px;
+          @include flexCenter;
+
+          div.play {
+            width: 120px;
+            height:120px;
+            border-radius: 50%;
+            border: solid 1px $cl_primary;
+            @include flexCenter;
+            cursor:pointer;
+
+            i {
+              font-size: 50px;
+              color: $cl_primary;
+            }
+          }
+        }
+
+      }
+      div.video:hover {
+        div.play-contenitore {
+          div.play {
+            border-color: $cl_tertiary;
+            i {
+              color: $cl_tertiary;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

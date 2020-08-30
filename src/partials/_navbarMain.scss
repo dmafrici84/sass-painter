@@ -1,0 +1,40 @@
+main {
+  section#navbar-main {
+    background-color: #E6E6E6;
+    div.centratura {
+      justify-content: flex-start;
+      nav {
+        width: 68%;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            width: calc(100% / 6);
+            height: 64.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+              font-size: 18px;
+              color: $cl_tertiary;
+            }
+
+          }
+
+          li:first-child {
+            background-color: $bg_secondary;
+            border-bottom: solid 3.5px $cl_secondary;
+          }
+
+          li:hover {
+            background-color: $cl_primary;
+            color: $cl_secondary;
+          }
+        }
+      }
+    }
+  }
+}
