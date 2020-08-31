@@ -3,33 +3,21 @@ main {
     background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
     background-size: cover;
     div.centratura{
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+      @include flexColumn;
 
       div.titolo {
-        width: 85%;
-        text-align: center;
-        padding-top: 70px;
         color: $cl_primary;
-        h2 {
-          font-size: 36px;
-          margin-bottom: 15px;
-        }
-        p {
-          font-size: 19px;
-          padding: 5px;
-          margin-bottom: 30px;
-        }
+
         a {
           @include flexCenter;
+          font-weight: 300;
 
           div.cerchio {
             width: 34px;
             height: 34px;
             border-radius: 50%;
-            border: solid 1px $cl_tertiary;
-            margin-right: 30px;
+            border: solid 3px $cl_tertiary;
+            margin-right: 20px;
             @include flexCenter;
 
             i {

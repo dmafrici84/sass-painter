@@ -1,0 +1,40 @@
+main {
+  section#artificial-intelligence {
+    background-color: $bg_secondary;
+
+    div.centratura {
+      @include flexColumn;
+      div.carousel {
+        position: relative;
+
+        div.prev {
+
+          position: absolute;
+          top: 50%;
+          left: 0px;
+          transform: translate(-130%, -50%);
+          font-size: 30px;
+          color: #e87015;
+        }
+
+        div.img-carousel {
+          width: 970px;
+          padding: 50px 0;
+
+          img {
+            width: 970px;
+          }
+        }
+
+        div.next {
+          position: absolute;
+          top: 50%;
+          left:970px;
+          transform: translate(30%, -50%);
+          font-size: 30px;
+          color: #e87015;
+        }
+      }
+    }
+  }
+}

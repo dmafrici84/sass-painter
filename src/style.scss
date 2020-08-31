@@ -17,7 +17,7 @@ div.sfondo {
   height: 100vh;
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
   background-size: cover;
-  
+
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -34,6 +34,29 @@ a {
   @include centratura;
 }
 
+div.centratura{
+
+  div.titolo {
+    width: 85%;
+    text-align: center;
+    padding-top: 70px;
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 19px;
+      padding: 5px;
+      margin-bottom: 30px;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+  }
+}
+
 .trasparente {
   width: 100%;
   height: 90vh;
@@ -44,4 +67,5 @@ a {
 @import "partials/_jumbotron.scss";
 @import "partials/_navbarMain.scss";
 @import "partials/_paintingSoftware.scss";
+@import "partials/_artificialIntelligence.scss";
 @import "partials/_footer.scss";
