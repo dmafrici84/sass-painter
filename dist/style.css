@@ -482,6 +482,63 @@ main section#artificial-intelligence div.centratura div.carousel div.prev:hover,
   opacity: 0.3;
 }
 
+main section#painting-tools {
+  background-color: #222;
+}
+main section#painting-tools div.centratura {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main section#painting-tools div.centratura div.titolo h2 {
+  color: #fff;
+}
+main section#painting-tools div.centratura div.titolo p {
+  color: #fff;
+}
+main section#painting-tools div.centratura div.img-painting-tools {
+  padding: 50px 0;
+}
+main section#painting-tools div.centratura div.img-painting-tools img {
+  width: 770px;
+}
+main section#painting-tools div.centratura div.contenuti {
+  display: flex;
+  padding: 50px 0;
+}
+main section#painting-tools div.centratura div.contenuti div.testo-contenuti {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+main section#painting-tools div.centratura div.contenuti div.testo-contenuti h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+main section#painting-tools div.centratura div.contenuti div.testo-contenuti p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+main section#painting-tools div.centratura div.contenuti div.img-contenuti {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+main section#painting-tools div.centratura div.contenuti div.img-contenuti img {
+  width: 670px;
+}
+main section#painting-tools div.centratura div.contenuti div.img-contenuti-1 {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+main section#painting-tools div.centratura div.contenuti div.img-contenuti-1 img {
+  width: 670px;
+}
+
 footer section#link-utili {
   background-color: #ececec;
 }

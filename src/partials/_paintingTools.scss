@@ -1,0 +1,72 @@
+main {
+  section#painting-tools {
+    background-color: #222;
+
+    div.centratura {
+      @include flexColumn;
+
+      div.titolo {
+
+        h2{
+          color:$cl_primary;
+        }
+        
+        p {
+          color:$cl_primary;
+        }
+      }
+
+      div.img-painting-tools {
+        padding: 50px 0;
+
+        img {
+          width: 770px;
+        }
+      }
+
+      div.contenuti {
+        display: flex;
+        padding: 50px 0;
+
+        div.testo-contenuti {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: $cl_primary;
+
+          h3 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 1.5;
+          }
+        }
+
+        div.img-contenuti {
+          width: 70%;
+          display: flex;
+          justify-content: flex-end;
+
+          img {
+            width: 670px;
+          }
+        }
+
+        div.img-contenuti-1 {
+          width: 70%;
+          display: flex;
+          justify-content: flex-start;
+
+          img {
+            width: 670px;
+          }
+        }
+      }
+    }
+  }
+}
