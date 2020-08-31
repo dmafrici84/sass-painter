@@ -15,6 +15,7 @@ main {
           transform: translate(-130%, -50%);
           font-size: 30px;
           color: #e87015;
+          cursor: pointer;
         }
 
         div.img-carousel {
@@ -33,6 +34,11 @@ main {
           transform: translate(30%, -50%);
           font-size: 30px;
           color: #e87015;
+          cursor: pointer;
+        }
+
+        div.prev:hover, div.next:hover {
+          opacity: 0.3;
         }
       }
     }

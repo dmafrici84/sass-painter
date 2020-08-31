@@ -7,22 +7,28 @@ header {
 
     nav.centratura {
       justify-content: flex-end;
-      
+
       div.header-nav-top-right{
-        width: 40%;
+        width: 35%;
 
         ul {
           @include ulNavFlex;
 
           li {
             i {
-              font-size: 15px;
+              font-size: 13px;
               margin-right: 10px;
               color: blue;
             }
             a {
-              font-size: 15px;
+              font-size: 13px;
               color: $cl_tertiary;
+              font-weight: 300;
+            }
+
+            a:hover {
+              color: $cl_primary;
+              text-decoration: underline;
             }
             select {
               width: 75px;
@@ -64,6 +70,7 @@ header {
               padding-right: 22px;
               font-size: 15px;
               color: $cl_primary;
+              font-weight: 300;
 
               i {
                 margin-left: 3px;
@@ -99,6 +106,7 @@ header {
                     font-size: 15px;
                     color: $cl_secondary;
                     padding: 8px;
+                    font-weight: 300;
                   }
 
                   i {

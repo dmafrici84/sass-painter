@@ -58,7 +58,7 @@ main {
             width: 120px;
             height:120px;
             border-radius: 50%;
-            border: solid 1px $cl_primary;
+            border: solid 3px $cl_primary;
             @include flexCenter;
             cursor:pointer;
 

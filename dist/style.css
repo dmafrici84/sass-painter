@@ -64,7 +64,7 @@ header section#header-nav-top nav.centratura {
   justify-content: flex-end;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right {
-  width: 40%;
+  width: 35%;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul {
   height: 50px;
@@ -73,13 +73,18 @@ header section#header-nav-top nav.centratura div.header-nav-top-right ul {
   align-items: center;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul li i {
-  font-size: 15px;
+  font-size: 13px;
   margin-right: 10px;
   color: blue;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul li a {
-  font-size: 15px;
+  font-size: 13px;
   color: #555;
+  font-weight: 300;
+}
+header section#header-nav-top nav.centratura div.header-nav-top-right ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right ul li select {
   width: 75px;
@@ -116,6 +121,7 @@ header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul
   padding-right: 22px;
   font-size: 15px;
   color: #fff;
+  font-weight: 300;
 }
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul > li a i {
   margin-left: 3px;
@@ -152,6 +158,7 @@ header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul
   font-size: 15px;
   color: #000;
   padding: 8px;
+  font-weight: 300;
 }
 header section#header-nav-bottom nav.centratura div.header-nav-bottom-right > ul li.parent-dropdown div.dropdown ul li.dropdown-link i {
   font-size: 12px;
@@ -191,10 +198,12 @@ main section#jumbotron div.centratura div.jumbotron-left {
 main section#jumbotron div.centratura div.jumbotron-left h2 {
   font-size: 29px;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 main section#jumbotron div.centratura div.jumbotron-left h4 {
   font-size: 22.5px;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 main section#jumbotron div.centratura div.jumbotron-left ul {
   margin-bottom: 40px;
@@ -416,7 +425,7 @@ main section#painting-software div.centratura div.video div.play-contenitore div
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: solid 1px #fff;
+  border: solid 3px #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -451,6 +460,7 @@ main section#artificial-intelligence div.centratura div.carousel div.prev {
   transform: translate(-130%, -50%);
   font-size: 30px;
   color: #e87015;
+  cursor: pointer;
 }
 main section#artificial-intelligence div.centratura div.carousel div.img-carousel {
   width: 970px;
@@ -466,6 +476,10 @@ main section#artificial-intelligence div.centratura div.carousel div.next {
   transform: translate(30%, -50%);
   font-size: 30px;
   color: #e87015;
+  cursor: pointer;
+}
+main section#artificial-intelligence div.centratura div.carousel div.prev:hover, main section#artificial-intelligence div.centratura div.carousel div.next:hover {
+  opacity: 0.3;
 }
 
 footer section#link-utili {
