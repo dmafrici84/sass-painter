@@ -1,1 +1,126 @@
+footer {
+  section#link-utili {
+    background-color: #ececec;
 
+    div.centratura {
+      flex-direction: column;
+      padding: 60px 0;
+
+      div.contenitore-link-footer {
+        display: flex;
+        justify-content: space-between;
+
+        div.link-footer {
+          width: calc(100% / 4);
+
+          h3 {
+            font-size: 15px;
+            color: $cl_secondary;
+            margin-bottom: 12px;
+            font-weight: 400;
+          }
+
+          li {
+            line-height: 1.6;
+
+            a {
+              font-size: 12px;
+              color: #4d4d4d
+            }
+
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      div.social-network {
+        display: flex;
+        justify-content: flex-end;
+
+        ul {
+          width: calc(100% / 4);
+          display: flex;
+
+          li {
+
+            a {
+              font-size: 35px;
+              margin-right: 12px;
+
+              i.fa-instagram {
+                background-color:  #e95950;
+                color: $cl_primary;
+              }
+              i.fa-facebook-square {
+                color: #3b5998;
+              }
+              i.fa-twitter-square {
+                color: #00acee;
+              }
+              i.fa-youtube-square {
+                color: #c4302b;
+              }
+              i.fa-pinterest-square {
+                color: #c8232c;
+              }
+              i.fa-rss-square {
+                color: orange;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  section#copyright {
+    background-color: #1e1e1e;
+    width: 100%;
+    div.centratura {
+      justify-content: space-between;
+      align-items: center;
+
+      div.antivirus {
+        ul {
+          display: flex;
+          li {
+            padding: 20px 15px;
+
+            a {
+
+              img.mcafee {
+                width: 113.63px;
+                height: 50px;
+                border-radius: 6px;
+                border: 0;
+              }
+            }
+          }
+        }
+      }
+
+      div.link-copyright {
+
+        ul {
+          display: flex;
+
+            li {
+
+              font-size: 13px;
+              color: $cl_primary;
+
+              a {
+                color: #999;
+                margin-right: 25px;
+              }
+            }
+
+            li:last-child {
+              margin-right: 35px;
+            }
+        }
+      }
+    }
+  }
+}

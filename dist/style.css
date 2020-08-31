@@ -5,10 +5,16 @@
 }
 
 body {
+  font-family: Roboto, sans-serif;
+}
+
+div.sfondo {
+  width: 100%;
+  height: 100vh;
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
   background-size: cover;
-  background-position: 0 150px;
-  font-family: Roboto, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 ul {
@@ -23,7 +29,6 @@ a {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
 }
 
 .trasparente {
@@ -36,6 +41,9 @@ header {
   width: 100%;
   height: 100px;
   background-color: #000;
+}
+header section#header-nav-top nav.centratura {
+  justify-content: flex-end;
 }
 header section#header-nav-top nav.centratura div.header-nav-top-right {
   width: 40%;
@@ -153,33 +161,36 @@ main section#jumbotron {
   background-repeat: no-repeat;
   background-position: -450px;
 }
-main section#jumbotron div.jumbotron-left {
+main section#jumbotron div.centratura {
+  justify-content: flex-end;
+}
+main section#jumbotron div.centratura div.jumbotron-left {
   width: 45%;
   background-color: rgba(0, 0, 0, 0);
   padding: 40px 10px;
   color: #fff;
 }
-main section#jumbotron div.jumbotron-left h2 {
+main section#jumbotron div.centratura div.jumbotron-left h2 {
   font-size: 29px;
   margin-bottom: 20px;
 }
-main section#jumbotron div.jumbotron-left h4 {
+main section#jumbotron div.centratura div.jumbotron-left h4 {
   font-size: 22.5px;
   margin-bottom: 20px;
 }
-main section#jumbotron div.jumbotron-left ul {
+main section#jumbotron div.centratura div.jumbotron-left ul {
   margin-bottom: 40px;
 }
-main section#jumbotron div.jumbotron-left li {
+main section#jumbotron div.centratura div.jumbotron-left li {
   font-size: 17px;
   margin-bottom: 27px;
 }
-main section#jumbotron div.jumbotron-left li i {
+main section#jumbotron div.centratura div.jumbotron-left li i {
   font-size: 12px;
   color: #555;
   margin-right: 8px;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron {
   height: 55px;
   width: 215px;
   padding: 5px;
@@ -189,29 +200,29 @@ main section#jumbotron div.jumbotron-left button#btn-jumbotron {
   display: flex;
   cursor: pointer;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left {
   width: 80%;
   display: flex;
   border-right: solid 1px #fff;
   flex-direction: column;
   justify-content: space-between;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left span {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-left span {
   font-size: 15px;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right {
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right i {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron div.btn-jumbotron-right i {
   font-size: 22px;
 }
-main section#jumbotron div.jumbotron-left button#btn-jumbotron:hover {
+main section#jumbotron div.centratura div.jumbotron-left button#btn-jumbotron:hover {
   opacity: 0.8;
 }
-main section#jumbotron div.jumbotron-right {
+main section#jumbotron div.centratura div.jumbotron-right {
   width: 33.5%;
   height: 500px;
   margin-top: 20px;
@@ -219,38 +230,38 @@ main section#jumbotron div.jumbotron-right {
   background-color: #000;
   color: #fff;
 }
-main section#jumbotron div.jumbotron-right div.sconto {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto {
   display: flex;
   justify-content: space-between;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale {
   width: 85px;
   height: 33px;
   padding: 5px 10px 5px 10px;
   margin: 10px 0 15px;
   background-color: #CC397F;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale span {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-1 div.sconto-percentuale span {
   font-size: 15px;
   color: #fff;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 span {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-1 span {
   color: #555;
   font-size: 16px;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-1 h4 {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-1 h4 {
   font-size: 25px;
   margin-bottom: 15px;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-img {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-img {
   display: flex;
   justify-content: flex-end;
   padding-top: 20px;
 }
-main section#jumbotron div.jumbotron-right div.sconto div.sconto-img img {
+main section#jumbotron div.centratura div.jumbotron-right div.sconto div.sconto-img img {
   height: 90px;
 }
-main section#jumbotron div.jumbotron-right button#btn-buy {
+main section#jumbotron div.centratura div.jumbotron-right button#btn-buy {
   width: 150px;
   height: 35px;
   color: #fff;
@@ -260,33 +271,33 @@ main section#jumbotron div.jumbotron-right button#btn-buy {
   border: 0;
   cursor: pointer;
 }
-main section#jumbotron div.jumbotron-right button#btn-buy:hover {
+main section#jumbotron div.centratura div.jumbotron-right button#btn-buy:hover {
   background-color: #26abff;
 }
-main section#jumbotron div.jumbotron-right div.offerta {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta {
   margin-top: 20px;
   padding: 10px 10px 10px 15px;
   background-color: rgba(255, 255, 255, 0.9);
   line-height: 130%;
 }
-main section#jumbotron div.jumbotron-right div.offerta a {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta a {
   color: #000;
 }
-main section#jumbotron div.jumbotron-right div.offerta a span {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta a span {
   font-size: 19px;
 }
-main section#jumbotron div.jumbotron-right div.offerta a p {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta a p {
   font-size: 14.5px;
 }
-main section#jumbotron div.jumbotron-right div.offerta a p span {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta a p span {
   font-size: 14px;
   color: #CC397F;
 }
-main section#jumbotron div.jumbotron-right div.offerta a:last-child {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta a:last-child {
   font-size: 14px;
   color: #26abff;
 }
-main section#jumbotron div.jumbotron-right div.offerta:hover a:last-child {
+main section#jumbotron div.centratura div.jumbotron-right div.offerta:hover a:last-child {
   text-decoration: underline;
 }
 
@@ -413,4 +424,100 @@ main section#painting-software div.centratura div.video:hover div.play-contenito
 }
 main section#painting-software div.centratura div.video:hover div.play-contenitore div.play i {
   color: #555;
+}
+
+footer section#link-utili {
+  background-color: #ececec;
+}
+footer section#link-utili div.centratura {
+  flex-direction: column;
+  padding: 60px 0;
+}
+footer section#link-utili div.centratura div.contenitore-link-footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer section#link-utili div.centratura div.contenitore-link-footer div.link-footer {
+  width: calc(100% / 4);
+}
+footer section#link-utili div.centratura div.contenitore-link-footer div.link-footer h3 {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+footer section#link-utili div.centratura div.contenitore-link-footer div.link-footer li {
+  line-height: 1.6;
+}
+footer section#link-utili div.centratura div.contenitore-link-footer div.link-footer li a {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+footer section#link-utili div.centratura div.contenitore-link-footer div.link-footer li a:hover {
+  text-decoration: underline;
+}
+footer section#link-utili div.centratura div.social-network {
+  display: flex;
+  justify-content: flex-end;
+}
+footer section#link-utili div.centratura div.social-network ul {
+  width: calc(100% / 4);
+  display: flex;
+}
+footer section#link-utili div.centratura div.social-network ul li a {
+  font-size: 35px;
+  margin-right: 12px;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-instagram {
+  background-color: #e95950;
+  color: #fff;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-facebook-square {
+  color: #3b5998;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-twitter-square {
+  color: #00acee;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-youtube-square {
+  color: #c4302b;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-pinterest-square {
+  color: #c8232c;
+}
+footer section#link-utili div.centratura div.social-network ul li a i.fa-rss-square {
+  color: orange;
+}
+footer section#copyright {
+  background-color: #1e1e1e;
+  width: 100%;
+}
+footer section#copyright div.centratura {
+  justify-content: space-between;
+  align-items: center;
+}
+footer section#copyright div.centratura div.antivirus ul {
+  display: flex;
+}
+footer section#copyright div.centratura div.antivirus ul li {
+  padding: 20px 15px;
+}
+footer section#copyright div.centratura div.antivirus ul li a img.mcafee {
+  width: 113.63px;
+  height: 50px;
+  border-radius: 6px;
+  border: 0;
+}
+footer section#copyright div.centratura div.link-copyright ul {
+  display: flex;
+}
+footer section#copyright div.centratura div.link-copyright ul li {
+  font-size: 13px;
+  color: #fff;
+}
+footer section#copyright div.centratura div.link-copyright ul li a {
+  color: #999;
+  margin-right: 25px;
+}
+footer section#copyright div.centratura div.link-copyright ul li:last-child {
+  margin-right: 35px;
 }

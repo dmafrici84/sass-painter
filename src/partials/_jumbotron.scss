@@ -4,160 +4,163 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -450px ;
-    div.jumbotron-left {
-      width: 45%;
-      background-color: rgba(0, 0, 0, 0);
-      padding: 40px 10px;
-      color:$cl_primary;
+    div.centratura {
+      justify-content: flex-end;
+      div.jumbotron-left {
+        width: 45%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 40px 10px;
+        color:$cl_primary;
 
-      h2 {
-        font-size: 29px;
-        margin-bottom: 20px;
-      }
-
-      h4 {
-        font-size: 22.5px;
-        margin-bottom: 20px;
-      }
-
-      ul {
-        margin-bottom: 40px;;
-      }
-
-      li {
-        font-size: 17px;
-        margin-bottom: 27px;;
-
-        i {
-          font-size: 12px;
-          color: $cl_tertiary;
-          margin-right: 8px;
-        }
-      }
-      button#btn-jumbotron {
-        height: 55px;
-        width: 215px;
-        padding: 5px;
-        border: 0;
-        background-color: $bg_tertiary;
-        color: $cl_primary;
-        display: flex;
-        cursor: pointer;
-
-        div.btn-jumbotron-left {
-          width: 80%;
-          display: flex;
-          border-right: solid 1px $cl_primary;
-          flex-direction: column;
-          justify-content: space-between;
-
-          span {
-            font-size: 15px;
-          }
+        h2 {
+          font-size: 29px;
+          margin-bottom: 20px;
         }
 
-        div.btn-jumbotron-right {
-          width: 20%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        h4 {
+          font-size: 22.5px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          margin-bottom: 40px;;
+        }
+
+        li {
+          font-size: 17px;
+          margin-bottom: 27px;;
 
           i {
-            font-size: 22px;
+            font-size: 12px;
+            color: $cl_tertiary;
+            margin-right: 8px;
           }
         }
-      }
-      button#btn-jumbotron:hover {
-        opacity: .8;
-      }
-    }
-    div.jumbotron-right{
-      width: 33.5%;
-      height: 500px;
-      margin-top: 20px;
-      padding: 0 15px;
-      background-color: $bg_primary;
-      color: $cl_primary;
+        button#btn-jumbotron {
+          height: 55px;
+          width: 215px;
+          padding: 5px;
+          border: 0;
+          background-color: $bg_tertiary;
+          color: $cl_primary;
+          display: flex;
+          cursor: pointer;
 
-      div.sconto {
-        display: flex;
-        justify-content: space-between;
-        div.sconto-1 {
+          div.btn-jumbotron-left {
+            width: 80%;
+            display: flex;
+            border-right: solid 1px $cl_primary;
+            flex-direction: column;
+            justify-content: space-between;
 
-          div.sconto-percentuale {
-            width: 85px;
-            height: 33px;
-            padding: 5px 10px 5px 10px;
-            margin:10px 0 15px;
-            background-color: #CC397F;
             span {
               font-size: 15px;
-              color: $cl_primary;
             }
           }
-          span {
-            color: $cl_tertiary;
-            font-size: 16px;
-          }
-          h4 {
-            font-size: 25px;
-            margin-bottom: 15px;
+
+          div.btn-jumbotron-right {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+              font-size: 22px;
+            }
           }
         }
-        div.sconto-img {
-          display: flex;
-          justify-content: flex-end;
-          padding-top: 20px;
-          img {
-            height: 90px;
-          }
+        button#btn-jumbotron:hover {
+          opacity: .8;
         }
       }
-      button#btn-buy {
-        width: 150px;
-        height: 35px;
-        color: $cl_primary;
-        font-size: 15px;
-        margin: 30px 0;
-        background-color: #009cff;
-        border: 0;
-        cursor: pointer;
-      }
-
-      button#btn-buy:hover {
-        background-color: #26abff;
-      }
-
-      div.offerta {
+      div.jumbotron-right{
+        width: 33.5%;
+        height: 500px;
         margin-top: 20px;
-        padding: 10px 10px 10px 15px;
-        background-color: rgba(255,255,255,.9);
-        line-height: 130%;
-        a {
-          color: $cl_secondary;
+        padding: 0 15px;
+        background-color: $bg_primary;
+        color: $cl_primary;
 
-          span {
-            font-size: 19px;
+        div.sconto {
+          display: flex;
+          justify-content: space-between;
+          div.sconto-1 {
+
+            div.sconto-percentuale {
+              width: 85px;
+              height: 33px;
+              padding: 5px 10px 5px 10px;
+              margin:10px 0 15px;
+              background-color: #CC397F;
+              span {
+                font-size: 15px;
+                color: $cl_primary;
+              }
+            }
+            span {
+              color: $cl_tertiary;
+              font-size: 16px;
+            }
+            h4 {
+              font-size: 25px;
+              margin-bottom: 15px;
+            }
           }
+          div.sconto-img {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 20px;
+            img {
+              height: 90px;
+            }
+          }
+        }
+        button#btn-buy {
+          width: 150px;
+          height: 35px;
+          color: $cl_primary;
+          font-size: 15px;
+          margin: 30px 0;
+          background-color: #009cff;
+          border: 0;
+          cursor: pointer;
+        }
 
-          p {
-            font-size: 14.5px;
+        button#btn-buy:hover {
+          background-color: #26abff;
+        }
+
+        div.offerta {
+          margin-top: 20px;
+          padding: 10px 10px 10px 15px;
+          background-color: rgba(255,255,255,.9);
+          line-height: 130%;
+          a {
+            color: $cl_secondary;
 
             span {
-              font-size: 14px;
-              color: #CC397F;
+              font-size: 19px;
+            }
+
+            p {
+              font-size: 14.5px;
+
+              span {
+                font-size: 14px;
+                color: #CC397F;
+              }
             }
           }
+          a:last-child {
+            font-size: 14px;
+            color: #26abff;
+          }
         }
-        a:last-child {
-          font-size: 14px;
-          color: #26abff;
-        }
-      }
 
-      div.offerta:hover {
-        a:last-child {
-          text-decoration: underline;
+        div.offerta:hover {
+          a:last-child {
+            text-decoration: underline;
+          }
         }
       }
     }
